@@ -38,5 +38,6 @@ gem 'spring',        group: :development
 gem "mongoid", "~> 4.0.0"
 gem 'sidekiq'
 gem "sidekiq-cron", "~> 0.2.0"
-gem 'elasticsearch'
+gem 'elasticsearch-model'
+gem 'sinatra', '>= 1.3.0', :require => nil
 
